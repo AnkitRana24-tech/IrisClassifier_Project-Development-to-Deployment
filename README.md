@@ -40,7 +40,7 @@ _Run Container:_ docker run -p 80:80 my_project_image
 ## Table of Contents
 
 - [Overview](#overview)
-- [Architecture](#architecture)
+- [Feature](#feature)
 - [Prerequisites](#prerequisites)
 - [Usage](#usage)
 - [Examples](#examples)
@@ -77,19 +77,10 @@ Example:
 
 ---
 
-## Architecture
-
-High-level architecture or flow.
-
-```text
-User
-  |
-  v
-CLI / API
-  |
-  v
-Core Service
-  |
-  v
-Cloud Provider / Backend
-``
+## Feature
+-Train and serve a scikit-learn model (Iris dataset).     
+-Serve predictions via FastAPI (serve_model.py).    
+-Containerized app with Dockerfile for consistent deployment.    
+-requirements.txt for reproducible environment.    
+-Sample requests tested with Postman.    
+-Dataset included: IRIS.csv and serialized model iris_model.pkl.
