@@ -21,3 +21,5 @@ README.md — this file
 **Docker (build & run):**    
 _Build image:_ docker build -t my_project_image .    
 _Run Container:_ docker run -p 80:80 my_project_image    
+
+#Verify same curl request against http://localhost:80/predict
