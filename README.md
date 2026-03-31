@@ -24,7 +24,7 @@ _Run Container:_ docker run -p 80:80 my_project_image
 
 *Test the deployed model by sending a POST request to http://localhost:80/predict using the same JSON payload you used earlier.*
 
-# Project Name
+# Iris Classifier (End-to-End)
 
 <!-- Badges -->
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen?style=flat-square)
