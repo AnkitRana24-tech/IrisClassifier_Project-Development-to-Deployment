@@ -22,4 +22,4 @@ README.md — this file
 _Build image:_ docker build -t my_project_image .    
 _Run Container:_ docker run -p 80:80 my_project_image    
 
-#Verify same curl request against http://localhost:80/predict
+*Test the deployed model by sending a POST request to http://localhost:80/predict using the same JSON payload you used earlier.*
