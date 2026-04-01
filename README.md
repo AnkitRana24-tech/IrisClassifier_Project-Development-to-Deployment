@@ -43,7 +43,7 @@ _Run Container:_ docker run -p 80:80 my_project_image
 - [Feature](#feature)
 - [Prerequisites](#prerequisites)
 - [Usage](#usage)
-- [Examples](#examples)
+- [Example](#example)
 - [Architecture](#architecture)
 - [Testing](#testing)
 - [Deployment](#deployment)
@@ -153,3 +153,24 @@ This project demonstrates an end-to-end machine learning workflow, from model de
 2. Package the inference service using Docker
 3. Deploy the container to Azure
 4. Test API endpoints using Postman
+
+## Example
+
+This section demonstrates how to use the deployed machine learning service to get predictions from the trained IRIS model.   
+
+**API Request (Prediction)**   
+
+Once the application is running (locally via Docker or deployed on Azure), predictions can be obtained by sending a POST request to the inference endpoint.   
+**Request Body (JSON)**      
+json
+{
+  "sepal_length": 5.1,
+  "sepal_width": 3.5,
+  "petal_length": 1.4,
+  "petal_width": 0.2
+}   
+**API Response**      
+{   
+  "prediction": "Iris-setosa"   
+}   
+
