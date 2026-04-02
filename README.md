@@ -208,7 +208,6 @@ Testing for this project focuses on validating the machine learning inference AP
 - Model loading and inference validation   
 - Endpoint accessibility after deployment   
 
----
 
 **2. Local Testing (Docker)**   
 - The Docker container is run locally to verify:   
@@ -217,7 +216,6 @@ Testing for this project focuses on validating the machine learning inference AP
   - API endpoint availability   
 - Local testing ensures the container behaves consistently before cloud deployment.   
 
----
 
 **3. Cloud Testing (Azure Deployment)**   
 - After deploying the container to **Microsoft Azure**, the public endpoint is tested using Postman.   
@@ -227,14 +225,12 @@ Testing for this project focuses on validating the machine learning inference AP
   - End-to-end inference flow   
 - Confirms that the application behaves the same in the cloud as it does locally.   
 
----
 
 **4. Sample Test Scenario**   
 - Send a POST request with valid feature values   
 - Receive a predicted iris species as output   
 - Verify HTTP status codes and response payload   
 
----
 
 **5. Testing Outcome**   
 - The application successfully processes input data and returns predictions.    
