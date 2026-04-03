@@ -7,7 +7,7 @@ import joblib
 iris = pd.read_csv("IRIS.csv")
 
 # Assign column names
-iris.columns = ['Petal_len', 'Petal_brth', 'Sepal_len', 'Sepal_brth', 'Flower_type']
+iris.columns = ['Petal_length', 'Petal_breath', 'Sepal_length', 'Sepal_breath', 'Flower_type']
 
 # Split data
 X = iris.drop('Flower_type', axis=1)
