@@ -9,7 +9,7 @@
 
 > A lightweight Iris classifier that trains a scikit-learn model and serves it via FastAPI inside a Docker container—designed for easy testing, reproducible deployments, and seamless pushing to Azure container registries and services.
 
----
+--
 
 ## Table of Contents
 
