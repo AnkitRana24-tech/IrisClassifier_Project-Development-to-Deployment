@@ -37,13 +37,13 @@ DevOps engineers who want a lightweight reference for CI/CD pipelines that build
 Educators and learners teaching deployment concepts with a small, well-known dataset.   
 Small teams or startups that need a simple, auditable service to serve models with minimal infra overhead.    
 - **Key design goals:**
-- Simplicity: minimal dependencies (scikit-learn, FastAPI), clear code structure, and tiny image size for fast iteration.   
-- Reproducibility: deterministic training script with seed control, saved model artifacts (joblib/pickle) and versioning-ready image tags.   
-- Testability: included unit tests for training and inference, and integration tests exercising the API endpoints.   
-- Portability: container-first design (Dockerfile optimized for small layers) to run locally, in CI, or in cloud platforms.   
-- Azure-ready: guidance and scripts for building, tagging, and pushing images to Azure Container Registry and deploying to Azure Container Instances / Web Apps / AKS.   
-- Observability & safety: simple health and readiness endpoints, structured JSON responses, and basic input validation for robust testing.   
-- Minimal footprint: small example using the Iris dataset to keep resource use low and onboarding fast.    
+Simplicity: minimal dependencies (scikit-learn, FastAPI), clear code structure, and tiny image size for fast iteration.   
+Reproducibility: deterministic training script with seed control, saved model artifacts (joblib/pickle) and versioning-ready image tags.   
+Testability: included unit tests for training and inference, and integration tests exercising the API endpoints.   
+Portability: container-first design (Dockerfile optimized for small layers) to run locally, in CI, or in cloud platforms.   
+Azure-ready: guidance and scripts for building, tagging, and pushing images to Azure Container Registry and deploying to Azure Container Instances / Web Apps / AKS.   
+Observability & safety: simple health and readiness endpoints, structured JSON responses, and basic input validation for robust testing.   
+Minimal footprint: small example using the Iris dataset to keep resource use low and onboarding fast.    
 
 Example:
 
