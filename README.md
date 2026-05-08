@@ -288,5 +288,5 @@ Please follow the existing code style and add tests where applicable.
 **Author:** Ankit Rana   
 **GitHub:** https://github.com/AnkitRana24-tech
 For questions, feedback or collaboration opportunities, feel free to:   
--Open an issue in this repository   
+-Open an issue in this repository.   
 -Reach out via GitHub, **E-mail:** ankitsrana0457@gmail.com
